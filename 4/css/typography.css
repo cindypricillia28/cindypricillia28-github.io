@@ -1,0 +1,16 @@
+h {
+  font-family: 'Segoe UI', Sans-Serif;
+  font-size: 40px;
+  text-transform:uppercase;
+}
+
+h2 {
+  font-family: 'Segoe UI', Sans-Serif;
+  font-size: 20px;
+}
+
+a {
+  font-family: Sans-Serif;
+  font-size: 15px;
+  color: white;
+}
