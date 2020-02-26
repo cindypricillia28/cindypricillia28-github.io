@@ -1,3 +1,5 @@
+
+
 *{
   margin: 0;
   padding: 0;
@@ -5,16 +7,30 @@
 
 nav{ position: fixed;
   top: 0;
-  left: 0;
   width: 100vw;
-  height: 60px;
-  background-color: black;
+  height: 55px;
+  background-color: #2B2B2B;
   z-index: 10;
 }
 
+nav .selalukananatas {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+main{
+  width:1024px;
+  margin-left:100px;
+  margin-right:100px;
+}
 section{
   width: 100%;
-  height: 100vw;
+  height: 120vw;
   position: relative;
 }
 
@@ -22,23 +38,89 @@ section{
   float: left;
   margin-right: 10px;
   margin-top: 18px;
-  margin-left: 18px;
+  margin-left: 10px;
 }
 
 
-.melayang { position: absolute;
+.melayangkanan { position: absolute;
   top: 200px;
   bottom: 100px;
   width: 40%;
+  height: 150px;
+  background-color: transparent ;
+  right: 150px;
+  margin-top: 10%;
+}
+
+.melayangkanan1 { position: absolute;
+  top: 110px;
+  bottom: 100px;
+  width: 40%;
+  height: 150px;
+  background-color: transparent ;
+  right: 150px;
+  margin-top: 10%;
+}
+
+.melayangkanan2 { position: absolute;
+  top: 110px;
+  bottom: 100px;
+  width: 40%;
+  height: 150px;
+  background-color: transparent ;
+  right: 150px;
+  margin-top: 10%;
+}
+
+.melayangkiri { position: absolute;
+  top: 100px;
+  bottom: 100px;
+  width: 40%;
+  height: 150px;
+  background-color: transparent ;
+  left: 300px;
+  margin-top: 10%;
+}
+
+.melayangkiriblock { position: absolute;
+  top: 250px;
+  bottom: 100px;
+  width: 40%;
+  height: 500px;
+  background-color: transparent ;
+  left: 300px;
+
+}
+
+.index { position: absolute;
+  top: 200px;
+  bottom: 100px;
+  width: 50%;
+  height: 300px;
+  background-color: transparent ;
+
+  margin-top: 5%;
+}
+
+
+
+.card {
+  width: 30%;
   height: 200px;
-  background-color: lightgrey;
+  margin-left: 30%;
+  margin-right: 1%;
+  margin-bottom: 10%;
+  margin-top: 7%;
+  float: left;
+  background-color: transparent
 }
 
 section.full {
-  background-image: url('../image/bg1.jpg');
+  background-image: url('../image/back1.jpg');
   background-size: cover;
   background-position: top left;
   background-repeat: no-repeat;
+  height: 180vh;
 }
 
 section .left {
@@ -55,18 +137,212 @@ section .right {
   float: left;
 }
 
-section .melayang {
-  position: absolute;
-  top: 200px;
-  left: 100px;
-  width: 40%;
-  height: 200px;
-  /*background-color: pink;*/
+  .cardfoto{
+    width: 300px;
+    margin-left: 8%;
+    margin-top: 20%;
+    background-image: url('../image/kelmscott.jpg');
+  }
+  
+
+a, .dropbtn {
+  display:inline-block;
+  padding-right:25px;
+  
 }
+
+.dropdown{
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.dropdown-content {
+  display:none;
+  position:absolute;
+  min-width:100px;
+  z-index:10;
+}
+
+.dropdown-content a{
+  color:grey;
+  text-decoration:none;
+  display:block;
+  text-align:left;
+  padding-top:20px;
+}
+
+.dropdown-content a:hover{
+  color:grey;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+
+nav main a:hover {
+  color: #E0E0E0;
+}
+
+.selalukananatas {
+  margin-right:50px;
+}
+
+.index {
+  margin-left: 280px;
+  margin-right: 300px;
+  margin-top: 300px;
+}
+
+.indexfoto {
+  margin-left: 400px;
+  padding-top: 100px;
+  
+}
+
+
 
 @media (max-width: 1024px) {
   main {
-    width: 100vw;
+    width: 100vw;}
+    
+    main{
+  width:1024px;
+  margin-left:5px;
+  margin-right:5px;
+}
+    
+  nav{ position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 35px;
+  background-color: #2B2B2B;
+  z-index: 10;
   }
+    section.full {
+  background-image: url('../image/back1.jpg');
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  height: 300vh;
+}
+  
+  
+.melayangkanan { position: absolute;
+  top: 180px;
+  bottom: 100px;
+  width: 50%;
+  height: 150px;
+  background-color: transparent ;
+  right: 80px;
+  margin-top: 450px;
+}
+
+.melayangkanan1 { position: absolute;
+  top: 600px;
+  bottom: 100px;
+  width: 70%;
+  height: 150px;
+  background-color: transparent ;
+  right: 50px;
+  margin-top: 10%;
+}
+
+.melayangkanan2 { position: absolute;
+  top: 500px;
+  bottom: 100px;
+  width: 70%;
+  height: 150px;
+  background-color: transparent ;
+  right: 50px;
+  margin-top: 10%;
+}
+
+.melayangkiri { position: absolute;
+  top: 10px;
+  bottom: 100px;
+  width: 40%;
+  height: 150px;
+  background-color: transparent ;
+  left: 50px;
+  margin-top: 150px;
+}
+
+.melayangkiriblock { position: absolute;
+  top: 130px;
+  bottom: 100px;
+  width: 40%;
+  height: 150px;
+  background-color: transparent ;
+  left: 35px;
+}
+
+.selalukananatas {
+  margin-right:10px;
+}
+
+.menu {
+  float: left;
+  margin-right: 10px;
+  margin-top: 18px;
+  margin-left: 0px;
+}
+
+.index {
+  margin-left: 85px;
+  margin-right: 30px;
+  margin-top: 300px;
+}
+
+.indexfoto {
+  margin-left: 0px;
+  padding-top: 100px;
+  background-size:100px;
   
 }
+
+.card {
+  width: 30%;
+  height: 200px;
+  margin-left: 3%;
+  margin-right: 1%;
+  margin-bottom: 10%;
+  margin-top: 7%;
+  float: left;
+  background-color: transparent
+}
+
+.menu {
+  float: left;
+  margin-right: 5px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.dropdown{
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.menu {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+nav .selalukananatas {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+}
+
+

@@ -1,16 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
 h {
-  font-family: 'Segoe UI', Sans-Serif;
-  font-size: 40px;
+  font-family: 'Open Sans';
+  font-size: 30px;
   text-transform:uppercase;
+  color: white;
 }
 
 h2 {
-  font-family: 'Segoe UI', Sans-Serif;
-  font-size: 20px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: white;
 }
 
 a {
   font-family: Sans-Serif;
   font-size: 15px;
   color: white;
+}
+
+h3 {
+  font-family: 'Lacquer', Sans-Serif;
+  font-size: 60px;
+  color: white;
+  opacity: 40% ;
+}
+
+.index h1{
+  font-family: 'Open Sans';
+  font-size: 30px;
+  text-transform:uppercase;
+  color: white;
+  text-align:center;
+  
+}
+
+.index h2{
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: white;
+  text-align:center;
+}
+
+.index p{
+  padding-bottom: 10px;
+}
+
+.selalukananatas {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  text-transform:uppercase;
+  color: black;
+  text-align: center;
+}
+
+p{
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  
+  .dropdown a {
+    font-size:10px;
+  }
+  
+  a {
+    font-size:10px;
+  }
+    
+  .melayangkanan h2 {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  color: white;
+  }
+  
+  .card h3 {
+  font-family: 'Lacquer', Sans-Serif;
+  font-size: 30px;
+  color: white;
+  opacity: 40% ;
+  }
+  
+  .selalukananatas {
+  font-family: 'Open Sans';
+  font-size: 13px;
+  text-transform:uppercase;
+  color: black;
+  text-align: center;
+}
+
+  .melayangkanan1 h2 {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  color: white;
+  }
+  
+  .melayangkanan1 h {
+  font-family: 'Open Sans';
+  font-size: 25px;
+  text-transform:uppercase;
+  color: white;
+}
+
+.index h1{
+  font-family: 'Open Sans';
+  font-size: 25px;
+  text-transform:uppercase;
+  color: white;
+  text-align:center;
+  
+}
+
+.index h2{
+  font-family: 'Open Sans';
+  font-size: 12px;
+  color: white;
+  text-align:center;
+}
+  
 }
