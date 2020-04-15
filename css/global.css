@@ -1,205 +1,888 @@
-
-
-*{
-  margin: 0;
-  padding: 0;
+* {
+  	margin: 0;
+  	padding: 0;
 }
 
-nav{ position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 55px;
-  background-color: #2B2B2B;
-  z-index: 10;
+section.logobar {
+	width: 100%;
+	height: 10vh;
+	background-color: lightskyblue;
 }
-
-nav .selalukananatas {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  background-color: white;
-  border-radius: 15px;
-}
-
-main{
-  width:1024px;
-  margin-left:100px;
-  margin-right:100px;
-}
-section{
-  width: 100%;
-  height: 120vw;
-  position: relative;
-}
-
-.menu {
-  float: left;
-  margin-right: 10px;
-  margin-top: 18px;
-  margin-left: 10px;
-}
-
-
-.melayangkanan { position: absolute;
-  top: 200px;
-  bottom: 100px;
-  width: 40%;
-  height: 150px;
-  background-color: transparent ;
-  right: 150px;
-  margin-top: 10%;
-}
-
-.melayangkanan1 { position: absolute;
-  top: 110px;
-  bottom: 100px;
-  width: 40%;
-  height: 150px;
-  background-color: transparent ;
-  right: 150px;
-  margin-top: 10%;
-}
-
-.melayangkanan2 { position: absolute;
-  top: 110px;
-  bottom: 100px;
-  width: 40%;
-  height: 150px;
-  background-color: transparent ;
-  right: 150px;
-  margin-top: 10%;
-}
-
-.melayangkiri { position: absolute;
-  top: 100px;
-  bottom: 100px;
-  width: 40%;
-  height: 150px;
-  background-color: transparent ;
-  left: 300px;
-  margin-top: 10%;
-}
-
-.melayangkiriblock { position: absolute;
-  top: 250px;
-  bottom: 100px;
-  width: 40%;
-  height: 500px;
-  background-color: transparent ;
-  left: 300px;
-
-}
-
-.index { position: absolute;
-  top: 200px;
-  bottom: 100px;
-  width: 50%;
-  height: 300px;
-  background-color: transparent ;
-
-  margin-top: 5%;
-}
-
-
-
-.card {
-  width: 30%;
-  height: 200px;
-  margin-left: 30%;
-  margin-right: 1%;
-  margin-bottom: 10%;
-  margin-top: 7%;
-  float: left;
-  background-color: transparent
-}
-
 section.full {
-  background-image: url('../image/back1.jpg');
-  background-size: cover;
-  background-position: top left;
-  background-repeat: no-repeat;
-  height: 180vh;
+	width: 100%;
+	height: 90vh;
+	background-color: lightskyblue;
 }
 
-section .left {
-  position: relative;
-  width: 40%;
-  height: 100%;
-  float: left;
+.baris1 {
+	width: 100%;
+	height: 20%;
+	padding-top: 10%;
 }
 
-section .right {
-  position: relative;
-  width: 60%;
-  height: 100%;
-  float: left;
+.logoo {
+	width: 40%;
+	height: 100%;
+	background-image: url("../image/88 logo 1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
 }
 
-  .cardfoto{
-    width: 300px;
-    margin-left: 8%;
-    margin-top: 20%;
-    background-image: url('../image/kelmscott.jpg');
-  }
-  
-
-a, .dropbtn {
-  display:inline-block;
-  padding-right:25px;
-  
+.text {
+	width: 60%;
+	height: 100%;
+	float: left;
 }
 
-.dropdown{
-  display: inline-block;
-  margin-right: 10px;
-  margin-top: 18px;
-  margin-left: 10px;
+.text p {
+	text-align: right;
+	font-size: 50px;
+	padding-top: 5%;
 }
 
-.dropdown-content {
-  display:none;
-  position:absolute;
-  min-width:100px;
-  z-index:10;
+
+.baris2 {
+	width: 100%;
+	height: 50%;
 }
 
-.dropdown-content a{
-  color:grey;
-  text-decoration:none;
-  display:block;
-  text-align:left;
-  padding-top:20px;
+.upcoming {
+	width: 25%;
+	height: 50%;
+	margin-left: 10%;
+	padding-top: 10%;
+	float: left;
 }
 
-.dropdown-content a:hover{
-  color:grey;
+.upcoming p {
+	text-align: center;
+	font-size: 40px;
+	outline: solid;
+	outline-width: thick;
+	outline-color: red;
 }
 
-.dropdown:hover .dropdown-content {
-  display:block;
+.gambar {
+	width: 50%;
+	height: 100%;
+	margin-left: 15%;
+	display: block;
+	float: left;
+	overflow-x: scroll;
 }
 
-nav main a:hover {
-  color: #E0E0E0;
+
+.gambar1 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/1.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
 }
 
-.selalukananatas {
-  margin-right:50px;
+.gambar2 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/2.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
 }
 
-.index {
-  margin-left: 280px;
-  margin-right: 310px;
-  margin-top: 300px;
+.gambar3 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/3.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.gambar4 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/4.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+.gambar5 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/5.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
 }
 
-.indexfoto {
-  margin-left: 470px;
-  padding-top: 150px;
-  
+.logo {
+	width: 20%;
+	height: 10vh;
 }
+
+.logo img {
+	width: 30%;
+	margin-left: 10px;
+}
+
+section.full1 {
+	width: 100%;
+	height: 100vh;
+	background-color: blue;
+	display: block;
+}
+
+.side1 {
+	width: 50%;
+	height: 100%;
+	background-image: url("../image/niki.jpg");
+	background-size: cover;
+	background-position: top;
+	background-color: darkorange;
+	display: block;
+	float: left;
+}
+
+.side1 p {
+	font-size: 100px;
+	text-align: center;
+	padding-top: 325px;
+}
+
+.side2 {
+	width: 50%;
+	height: 100%;
+	background-color: orange;
+	display: block;
+	float: left;
+}
+
+.album {
+	width: 100%;
+	height: 50%;
+	background-image: url("../image/rich brian.jpg");
+	background-size: cover;
+	background-color: orange;
+	display: block;
+}
+
+.album p {
+	font-size: 100px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.merch {
+	width: 100%;
+	height: 50%;
+	background-image: url("../image/joji.jpg");
+	background-size: cover;
+	background-color: greenyellow;
+	display: block;
+}
+
+.merch p {
+	font-size: 100px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section.navbar {
+	width: 100%;
+	height: 10vh;
+	display: block;
+	background-color: #232323;
+}
+
+.margin {
+	width: 85%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo1 {
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+
+.logo1 img {
+	width: 50%;
+}
+
+.artists {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 35%;
+}
+
+.albums {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+.merchs {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+.concerts {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+.artists p {
+	text-align: center;
+	padding-top: 25px;
+	letter-spacing: 2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.albums p {
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.merchs p {
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.concerts p {
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section.merchpage {
+	width: 100%;
+	height: 200vh;
+	display: block;
+	background-color: #232323;
+}
+
+
+.grid {
+	width: 85%;
+	height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-areas:
+		'satu dua tiga'
+		'satuu duaa tigaa'
+		'empat lima enam'
+		'empatt limaa enamm'
+		'tujuh delapan sembilan'
+		'tujuhh delapann sembilann';
+	grid-template-rows: 50vh 5vh 50vh 5vh 50vh 5vh;
+	grid-column-gap: 120px;
+	grid-row-gap: 30px;
+	background-color: transparent;
+}
+
+.satu {
+	grid-area: satu;
+	background-image: url("../image/satu-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.satu:hover {
+	background-image: url("../image/satu-2.jpg");
+}
+
+.satuu {
+	grid-area: satuu;
+}
+
+
+
+
+.dua {
+	grid-area: dua;
+	background-image: url("../image/dua-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.dua:hover {
+	background-image: url("../image/dua-2.jpg");
+}
+
+.duaa {
+	grid-area: duaa;
+}
+
+
+
+.tiga {
+	grid-area: tiga;
+	background-image: url("../image/tiga-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.tiga:hover {
+	background-image: url("../image/tiga-2.jpg");
+}
+
+.tigaa {
+	grid-area: tigaa;
+}
+
+
+
+.empat {
+	grid-area: empat;
+	background-image: url("../image/empat-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.empat:hover {
+	background-image: url("../image/empat-2.jpg");
+}
+
+.empatt {
+	grid-area: empatt;
+}
+
+
+
+.lima {
+	grid-area: lima;
+	background-image: url("../image/lima-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.lima:hover {
+	background-image: url("../image/lima-2.jpg");
+}
+
+.limaa {
+	grid-area: limaa;
+}
+
+
+
+.enam {
+	grid-area: enam;
+	background-image: url("../image/enam-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.enam:hover {
+	background-image: url("../image/enam-2.jpg");
+}
+
+.enamm {
+	grid-area: enamm;
+}
+
+
+
+.tujuh {
+	grid-area: tujuh;
+	background-image: url("../image/tujuh-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.tujuh:hover {
+	background-image: url("../image/tujuh-2.jpg");
+}
+
+.tujuhh {
+	grid-area: tujuhh;
+}
+
+
+
+.delapan {
+	grid-area: delapan;
+	background-image: url("../image/delapan-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.delapan:hover {
+	background-image: url("../image/delapan-2.jpg");
+}
+
+.delapann {
+	grid-area: delapann;
+}
+
+
+
+.sembilan {
+	grid-area: sembilan;
+	background-image: url("../image/sembilan-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sembilan:hover {
+	background-image: url("../image/sembilan-2.jpg");
+}
+
+.sembilann {
+	grid-area: sembilann;
+}
+
+
+.full2 {
+	width: 100%;
+	height: 90vh;
+	background-color: #232323;
+}
+
+.part1 {
+	width: 100%;
+	height: 20%;
+}
+
+.part1 p {
+	padding-top: 50px;
+	font-size: 50px;
+}
+
+.part2 {
+	width: 100%;
+	height: 55%;
+}
+
+.kiri {
+	width: 30%;
+	height: 100%;
+	background-image: url("../image/concert.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.kanan {
+	width: 65%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+}
+
+.atas p {
+	padding-top: 10px;
+	font-size: 40px;
+}
+
+.atas h2 {
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+.bawah {
+	width: 30%;
+	margin-top: 70px;
+}
+.bawah p {
+	font-size: 30px;
+}
+
+.part3 {
+	width: 30%;
+	height: 10%;
+}
+
+.part3 p {
+	font-size: 30px;
+	text-align: center;
+	border: solid;
+	border-color: red;
+	border-width: thick;
+	padding: 10px 10px 10px 10px;
+}
+
+
+section.about {
+	width: 100%;
+	height: 100vh;
+	background-color: #F16474;
+}
+
+.left {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.text1 {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+
+.text1 p{
+	letter-spacing: 2px;
+}
+
+.text2 {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.text2 p {
+	font-size: 50px;
+}
+
+.text3 {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.text3 p {
+	font-size: 25px;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+.right {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.image1 {
+	width: 100%;
+	height: 50%;
+	background-image: url("../image/88.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.image2 {
+	width: 100%;
+	height: 50%;
+	background-image: url("../image/beach.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+section.container {
+	width: 100%;
+	height: 90vh;
+	display: block;
+	background-color: #232323;
+}
+
+.artistdown {
+	width: 20%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+
+
+.artist1 {
+	width: 100%;
+	height: 25%;
+	background-image: url("../image/richbrian1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.artist2 {
+	width: 100%;
+	height: 25%;
+	background-image: url("../image/joji1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.artist3 {
+	width: 100%;
+	height: 25%;
+	background-image: url("../image/niki1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.artist4 {
+	width: 100%;
+	height: 25%;
+	background-image: url("../image/hb2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.artist1 h1 {
+	text-align: center;
+	padding-top: 100px;
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.artist2 h1 {
+	text-align: center;
+	padding-top: 100px;
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.artist3 h1 {
+	text-align: center;
+	padding-top: 100px;
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.artist4  h1 {
+	text-align: center;
+	padding-top: 100px;
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.info1 {
+	width: 74%;
+	height: 100%;
+	float: left;
+	margin-left: 3%;
+	display: block;
+}
+
+.info2 {
+	width: 74%;
+	height: 100%;
+	float: left;
+	margin-left: 3%;
+	display: none;
+}
+
+.info3 {
+	width: 74%;
+	height: 100%;
+	float: left;
+	margin-left: 3%;
+	display: none;
+}
+
+.info4 {
+	width: 74%;
+	height: 100%;
+	float: left;
+	margin-left: 3%;
+	display: none;
+}
+.fotonya {
+	width: 100%;
+	height: 45%;
+	background-color: red;
+}
+
+.dikiri1 {
+	width: 65%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/richbrian2.jpg");
+	background-size: cover;
+}
+
+.dikanan1 {
+	width: 35%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/richbrian3.jpg");
+	background-size: cover;
+}
+
+
+.dikiri2 {
+	width: 65%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/joji2.jpg");
+	background-size: cover;
+}
+
+.dikanan2 {
+	width: 35%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/joji3.jpg");
+	background-size: cover;
+}
+
+.dikiri3 {
+	width: 65%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/niki2.jpg");
+	background-size: cover;
+}
+
+.dikanan3 {
+	width: 35%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/niki3.jpg");
+	background-size: cover;
+}
+
+.dikiri4 {
+	width: 65%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/hb2.jpg");
+	background-size: cover;
+}
+
+.dikanan4 {
+	width: 35%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/hb3.jpg");
+	background-size: cover;
+}
+
+.bawahh {
+	width: 100%;
+	height: 55%;
+}
+
+.name {
+	width: 100%;
+	height: 20%;
+}
+
+.half {
+	width: 50%;
+	height: 70%;
+	float: left;
+}
+
+.latest {
+	width: 100%;
+	height: 15%;
+}
+
+.youtube {
+	width: 100%;
+	height: 85%;
+}
+
+.connect {
+	width: 100%;
+	height: 15%;
+}
+
+.link {
+	width: 100%;
+	height: 85%;
+}
+
+.link1 {
+	width: 10%;
+	height: 20%;
+	margin-right: 20px;
+	float: left;
+}
+
+.link1 img {
+	width: 80%;
+}
+
+.side3 {
+	width: 30%;
+	height: 90%;
+	float: left;
+	margin-left: 5%;
+}
+
+.album1 {
+	width: 100%;
+	height: 50%;
+	background-image: url("../image/hitc2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.album2 {
+	width: 100%;
+	height: 50%;
+	background-image: url("../image/hitcc1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.side4 {
+	width: 35%;
+	height: 90%;
+	float: left;
+	margin-left: 5%;
+}
+
+.album3 {
+	width: 100%;
+	height: 50%;
+	background-image: url("../image/hitcc2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.album4 {
+	width: 100%;
+	height: 50%;
+}
+
+.title1 {
+	width: 100%;
+	height: 20%;
+	margin-top: 10px;
+}
+
+.title2 {
+	width: 100%;
+	height: 10%;
+	margin-top: 10px;
+}
+
+.title2 h1 {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.video {
+	width: 80%;
+	height: 60%;
+}
+
+
 
 
 
@@ -212,137 +895,989 @@ nav main a:hover {
   margin-left:5px;
   margin-right:5px;
 }
-    
-  nav{ position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 35px;
-  background-color: #2B2B2B;
-  z-index: 10;
-  }
-    section.full {
-  background-image: url('../image/back1.jpg');
-  background-size: cover;
-  background-position: top left;
-  background-repeat: no-repeat;
-  height: 300vh;
-}
-  
-  
-.melayangkanan { position: absolute;
-  top: 180px;
-  bottom: 100px;
-  width: 50%;
-  height: 150px;
-  background-color: transparent ;
-  right: 90px;
-  margin-top: 450px;
+
+section.logobar {
+	width: 100%;
+	height: 8vh;
+	background-color: lightskyblue;
 }
 
-.melayangkanan1 { position: absolute;
-  top: 600px;
-  bottom: 100px;
-  width: 70%;
-  height: 150px;
-  background-color: transparent ;
-  right: 50px;
-  margin-top: 10%;
+.logo1 {
+ width: 100px;
+ height: 100%;
 }
 
-.melayangkanan2 { position: absolute;
-  top: 500px;
-  bottom: 100px;
-  width: 70%;
-  height: 150px;
-  background-color: transparent ;
-  right: 50px;
-  margin-top: 10%;
+section.logobar {
+	width: 100%;
+	height: 8vh;
+	display: block;
+	background-color: lightskyblue;
 }
 
-.melayangkiri { position: absolute;
-  top: 10px;
-  bottom: 100px;
-  width: 40%;
-  height: 150px;
-  background-color: transparent ;
-  left: 50px;
-  margin-top: 150px;
+.margin {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.melayangkiriblock { position: absolute;
-  top: 130px;
-  bottom: 100px;
-  width: 40%;
-  height: 150px;
-  background-color: transparent ;
-  left: 35px;
+.logo1 {
+	width: 150%;
+	height: 100%;
+	float: left;
 }
 
-.selalukananatas {
-  margin-right:10px;
+.artists {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 10%;
 }
 
-.menu {
-  float: left;
-  margin-right: 10px;
-  margin-top: 18px;
-  margin-left: 0px;
+.albums {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 3%;
 }
 
-.index {
-  margin-left: 85px;
-  margin-right: 30px;
-  margin-top: 250px;
+.merchs {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 3%;
 }
 
-.indexfoto {
-  margin-left: 0px;
-  padding-top: 100px;
-  background-size:100px;
-  
+.concerts {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 3%;
 }
 
-.card {
-  width: 30%;
-  height: 200px;
-  margin-left: 10%;
-  margin-right: 1%;
-  margin-bottom: 10%;
-  margin-top: 15%;
-  float: left;
-  background-color: transparent
+section.navbar {
+	width: 100%;
+	height: 10vh;
+	display: block;
+	background-color: #232323;
 }
 
-.menu {
-  float: left;
-  margin-right: 5px;
-  margin-top: 18px;
-  margin-left: 10px;
-}
-.dropdown{
-  display: inline-block;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-left: 10px;
+.margin {
+	width: 85%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.menu {
-  float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
+.logo1 {
+	width: 10%;
+	height: 100%;
+	float: left;
 }
 
-nav .selalukananatas {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 7px;
-  right: 10px;
-  background-color: white;
-  border-radius: 10px;
+.logo1 img {
+	width: 50%;
 }
 
+.artists {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 35%;
+}
+
+.albums {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+.merchs {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+.concerts {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+section.full {
+	width: 100%;
+	height: 110vh;
+	background-color: lightskyblue;
+}
+
+.baris1 {
+	width: 100%;
+	height: 15%;
+	padding-top: 0%;
+}
+
+.logoo {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/88 logo 1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.text {
+	width: 100%;
+	height: 100%;
+
+}
+
+.text p {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 1%;
 }
 
 
+.baris2 {
+	width: 100%;
+	height: 70%;
+}
+
+.upcoming {
+	width: 80%;
+	height: 20%;
+	margin-left: 10%;
+	padding-top: ;
+	position: center;
+
+}
+
+.upcoming p {
+	text-align: center;
+	font-size:25px;
+	outline: solid;
+	outline-width: thick;
+	outline-color: red;
+}
+
+.gambar {
+	width: 100%;
+	height: 60%;
+	margin-left: 1%;
+	display: block;
+	float: left;
+	overflow-x: scroll;
+}
+
+
+.gambar1 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/1.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+
+.gambar2 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/2.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+
+.gambar3 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/3.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.gambar4 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/4.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+.logo {
+	width: 20%;
+	height: 10vh;
+}
+
+.logo img {
+	width: 30%;
+	margin-left: 10px;
+}
+
+section.full1 {
+	width: 100%;
+	height: 100vh;
+	background-color: blue;
+	display: block;
+}
+
+.side1 {
+	width: 100%;
+	height: 40%;
+	background-image: url("../image/niki.jpg");
+	background-size: cover;
+	background-position: top;
+	background-color: darkorange;
+	display: block;
+	
+}
+
+.side1 p {
+	font-size: 70px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.side2 {
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+	display: block;
+	float: left;
+}
+
+.album {
+	width: 100%;
+	height: 40%;
+	background-image: url("../image/rich brian.jpg");
+	background-size: cover;
+	background-color:transparent;
+	display: block;
+}
+
+.album p {
+	font-size: 70px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.merch {
+	width: 100%;
+	height: 40%;
+	background-image: url("../image/joji.jpg");
+	background-size: cover;
+	background-color: greenyellow;
+	display: block;
+}
+
+.merch p {
+	font-size: 60px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section.about {
+	width: 100%;
+	height: 140vh;
+	background-color: #F16474;
+}
+
+.left {
+	width: 100%;
+	height: 50%;
+}
+
+.text1 {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.text1 p{
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.text2 {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.text2 p {
+	font-size: 40px;
+}
+
+.text3 {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.text3 p {
+	font-size: 25px;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+.right {
+	width: 100%;
+	height: 50%;
+	float: left;
+}
+
+.image1 {
+	width: 100%;
+	height: 60%;
+	background-image: url("../image/88.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.image2 {
+	width: 100%;
+	height: 60%;
+	background-image: url("../image/beach.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+section.merchpage {
+	width: 100%;
+	height: 150vh;
+	display: block;
+	background-color: #232323;
+}
+
+.grid {
+	width: 100%;
+	height: 80vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-areas:
+		'satu dua tiga'
+		'satuu duaa tigaa'
+		'empat lima enam'
+		'empatt limaa enamm'
+		'tujuh delapan sembilan'
+		'tujuhh delapann sembilann';
+	grid-template-rows: 30vh 5vh 30vh 5vh 30vh 5vh;
+	grid-column-gap: 10px;
+	grid-row-gap: 30px;
+	background-color: transparent;
+}
+
+.satu {
+	grid-area: satu;
+	background-image: url("../image/satu-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.satu:hover {
+	background-image: url("../image/satu-2.jpg");
+}
+
+.satuu {
+	grid-area: satuu;
+}
+
+
+
+
+.dua {
+	grid-area: dua;
+	background-image: url("../image/dua-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.dua:hover {
+	background-image: url("../image/dua-2.jpg");
+}
+
+.duaa {
+	grid-area: duaa;
+}
+
+
+
+.tiga {
+	grid-area: tiga;
+	background-image: url("../image/tiga-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.tiga:hover {
+	background-image: url("../image/tiga-2.jpg");
+}
+
+.tigaa {
+	grid-area: tigaa;
+}
+
+
+
+.empat {
+	grid-area: empat;
+	background-image: url("../image/empat-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.empat:hover {
+	background-image: url("../image/empat-2.jpg");
+}
+
+.empatt {
+	grid-area: empatt;
+}
+
+
+
+.lima {
+	grid-area: lima;
+	background-image: url("../image/lima-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.lima:hover {
+	background-image: url("../image/lima-2.jpg");
+}
+
+.limaa {
+	grid-area: limaa;
+}
+
+
+
+.enam {
+	grid-area: enam;
+	background-image: url("../image/enam-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.enam:hover {
+	background-image: url("../image/enam-2.jpg");
+}
+
+.enamm {
+	grid-area: enamm;
+}
+
+
+
+.tujuh {
+	grid-area: tujuh;
+	background-image: url("../image/tujuh-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.tujuh:hover {
+	background-image: url("../image/tujuh-2.jpg");
+}
+
+.tujuhh {
+	grid-area: tujuhh;
+}
+
+
+
+.delapan {
+	grid-area: delapan;
+	background-image: url("../image/delapan-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.delapan:hover {
+	background-image: url("../image/delapan-2.jpg");
+}
+
+.delapann {
+	grid-area: delapann;
+}
+
+
+
+.sembilan {
+	grid-area: sembilan;
+	background-image: url("../image/sembilan-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.sembilan:hover {
+	background-image: url("../image/sembilan-2.jpg");
+}
+
+.sembilann {
+	grid-area: sembilann;
+}
+
+.full2 {
+	width: 100%;
+	height: 100vh;
+	background-color: #232323;
+}
+
+.part1 {
+	width: 100%;
+	height: 10%;
+}
+
+.part1 p {
+	padding-top: 50px;
+	font-size: 20px;
+}
+
+.part2 {
+	width: 100%;
+	height: 80%;
+}
+
+.kiri {
+	width: 80%;
+	height: 60%;
+	background-image: url("../image/concert.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left:10%;
+}
+
+.kanan {
+	width: 80%;
+	height: 40%;
+	float: left;
+	margin-left: 5%;
+}
+
+.atas p {
+	padding-top: 0px;
+	font-size: 20px;
+}
+
+.atas h2 {
+	padding-top: 10px;
+	font-size: 10px;
+}
+
+.bawah {
+	width: 60%;
+	margin-top: 25px;
+}
+.bawah p {
+	font-size: 15px;
+}
+
+.part3 {
+	width: 60%;
+	height: 30px;
+}
+
+.part3 p {
+	font-size: 20px;
+	text-align: center;
+	border: solid;
+	border-color: red;
+	border-width: thick;
+	padding: 5px 5px 5px 5px;
+}
+
+section.navbar {
+	width: 100%;
+	height: 10vh;
+	display: block;
+	background-color: #232323;
+}
+
+.margin {
+	width: 85%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo1 {
+	width: 70%;
+	height: 100%;
+}
+
+.logo1 img {
+	width: 25%;
+}
+
+.artists {
+	width: auto;
+	height: 100%;
+	display: block;
+	margin-left: 20%;
+}
+
+.albums {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+.merchs {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+.concerts {
+	width: auto;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+.artists p {
+	text-align: center;
+	padding-top: 10px;
+	letter-spacing: 2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.albums p {
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.merchs p {
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.concerts p {
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section.container {
+	width: 100%;
+	height: 90vh;
+	display: block;
+	background-color: #232323;
+}
+
+.artistdown {
+	width: 30%;
+	height: 70%;
+	display: block;
+	float: left;
+}
+
+
+.artist1 {
+	width: 100%;
+	height: 25%;
+	background-image: url("../image/richbrian1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.artist2 {
+	width: 100%;
+	height: 25%;
+	background-image: url("../image/joji1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.artist3 {
+	width: 100%;
+	height: 25%;
+	background-image: url("../image/niki1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.artist4 {
+	width: 100%;
+	height: 25%;
+	background-image: url("../image/hb2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.artist1 h1 {
+	text-align: center;
+	padding-top: 100px;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.artist2 h1 {
+	text-align: center;
+	padding-top: 100px;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.artist3 h1 {
+	text-align: center;
+	padding-top: 100px;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.artist4  h1 {
+	text-align: center;
+	padding-top: 70px;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.info1 {
+	width: 60%;
+	height: 80%;
+	float: left;
+	margin-left: 3%;
+	display: block;
+}
+
+.info2 {
+	width: 60%;
+	height: 80%;
+	float: left;
+	margin-left: 3%;
+	display: none;
+}
+
+.info3 {
+	width: 60%;
+	height:80%;
+	float: left;
+	margin-left: 3%;
+	display: none;
+}
+
+.info4 {
+	width: 60%;
+	height:80%;
+	float: left;
+	margin-left: 3%;
+	display: none;
+}
+.fotonya {
+	width: 100%;
+	height: 25%;
+	background-color: red;
+}
+
+.dikiri1 {
+	width: 60%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/richbrian2.jpg");
+	background-size: cover;
+}
+
+.dikanan1 {
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/richbrian3.jpg");
+	background-size: cover;
+}
+
+
+.dikiri2 {
+	width: 60%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/joji2.jpg");
+	background-size: cover;
+}
+
+.dikanan2 {
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/joji3.jpg");
+	background-size: cover;
+}
+
+.dikiri3 {
+	width: 60%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/niki2.jpg");
+	background-size: cover;
+}
+
+.dikanan3 {
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/niki3.jpg");
+	background-size: cover;
+}
+
+.dikiri4 {
+	width: 60%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/hb2.jpg");
+	background-size: cover;
+}
+
+.dikanan4 {
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/hb3.jpg");
+	background-size: cover;
+}
+
+.bawahh {
+	width: 100%;
+	height: 55%;
+}
+
+.name {
+	width: 100%;
+	height: 20%;
+}
+
+.half {
+	width: 100%;
+	height: 70%;
+	float: left;
+}
+
+.latest {
+	width: 100%;
+	height: 15%;
+}
+
+.youtube {
+	width: 100%;
+	height: 85%;
+}
+
+.connect {
+	width: 100%;
+	height: 15%;
+	margin-top: 20px;
+}
+
+.link {
+	width: 100%;
+	height: 85%;
+}
+
+.link1 {
+	width: 10%;
+	height: 20%;
+	margin-right: 20px;
+	float: left;
+}
+
+.link1 img {
+	width: 80%;
+}
+
+.side3 {
+	width: 100%;
+	height: 60%;
+	float: left;
+	margin-left: 0%;
+}
+
+.album1 {
+	width: 100%;
+	height: 50%;
+	background-image: url("../image/hitc2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.album2 {
+	width: 100%;
+	height: 50%;
+	background-image: url("../image/hitcc1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.side4 {
+	width: 100%;
+	height: 90%;
+	float: left;
+	margin-left: 0%;
+}
+
+.album3 {
+	width: 100%;
+	height: 30%;
+	background-image: url("../image/hitcc2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.album4 {
+	width: 100%;
+	height: 50%;
+	background-color: #232323
+}
+
+.title1 {
+	width: 100%;
+	height: 20%;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.title2 {
+	width: 100%;
+	height: 10%;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+.title2 h1 {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.video {
+	width: 90%;
+	height: 60%;
+	margin-left: 10px;
+}
